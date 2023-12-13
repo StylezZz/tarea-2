@@ -1,0 +1,126 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Añade un enlace "Saltar al contenido principal" */
+#main-content-link {
+  background-color: lightseagreen;
+  width: 100%;
+  padding: 10px;
+}
+
+/* Comenta el estilo existente para el elemento li */
+/* Estilo para el elemento li */
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+/* Cambia el elemento nav para que utilice inline-block y tenga una anchura de aproximadamente el 80% */
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #bD44ee; /* Color de fondo del navbar */
+  padding: 10px; /* Añade espacio interno al navbar */
+  width: 100%;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+/* Establece estilos para los enlaces en el navbar */
+nav a {
+  color: white; /* Color del texto */
+  text-decoration: none; /* Quita el subrayado del enlace */
+  margin: 0 15px; /* Añade espacio entre enlaces */
+}
+
+/* Establece estilos para la imagen en el header */
+header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+/* Estiliza la clase grid para utilizar una rejilla de dos columnas */
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+}
+
+/* Selector descendente para dar estilo solo a las imágenes de la clase grid para que tengan una anchura del 100% */
+.grid img {
+  width: 100%;
+}
+
+/* Ajusta la clase grid */
+/* Puedes ajustar los valores de las siguientes propie*/
+.grid {
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 10px;
+  background-color: lightgreen;
+}
+
+/* Estiliza la clase flex para utilizar flex */
+.flex {
+  display: flex;
+  /* Puedes ajustar los valores de las siguientes propiedades para copiar el aspecto deseado */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #bD44ee;
+  margin-top: 40px;
+}
+
+h1{
+  text-align: center;
+  background-color: lightcoral;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.grid-neighborhood{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /*centrar contenido*/
+  align-items: center;
+  background-color: aquamarine;
+  gap: 10px;
+}
+
+.grid-neighborhood img{
+  width: 800px;
+  box-sizing: border-box;
+  margin-left: 230px;
+  margin-bottom: 100px;
+  height: 300px;
+  width: 600px;
+} 
+
+footer{
+  background-color: #bD44ee;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+.grid-parks{
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en filas adicionales si no caben en una sola fila */
+  justify-content: center; /* Centra las imágenes horizontalmente */
+  gap: 20px; /* Espacio entre las imágenes */
+  background-color: lightpink;
+}
+
+/* Selector descendente para dar estilo solo a las imágenes de la clase grid para que tengan una anchura del 48% (para dejar espacio para el espacio entre las imágenes) */
+.grid-parks img {
+  width: 15%; /* Ajusta según sea necesario para mantener espacio entre las imágenes */
+  box-sizing: border-box; /* Incluye el padding y border en el ancho y alto */
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
